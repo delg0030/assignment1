@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+    margin: 3px 3px 3px 3px;
+}
+
+
+.logo {
+height: 4.5rem;
+    width: auto;
+    margin: .10rem;
+    float: left;
+    padding: .25rem;
+}
+
+.masthead {
+    background-color: black;
+    overflow: auto;
+    margin: .25rem
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times, Serif;
+}
+
+h1 {
+    font-family: bold, serif;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin 3rem 0;
+    color: black;
+    padding: .25rem;
+    float: center;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: .25rem;
+}
+
+.summary {
+    margin: 10px;
+}
+
+.dropcap:first-letter{
+    font-size: 4.5rem;
+    font-weight: bold;
+    float: up;
+    margin: 0 0 0 0;
+    color: red;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: red;
+}
+
+h3 + p {
+    font-family: serif;
+    font-size: .90rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem; 
+    width: 100%; 
+} 
+
+figcaption {
+    margin: .5rem 0 0;
+    font-size: .75rem;
+    
+}
+
+.rule {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+footer p {
+    padding: 0 5%;
+    color: white;
+    font-size: .80rem;
+}
+
+footer a {
+    color: red;
+}
